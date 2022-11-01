@@ -65,7 +65,7 @@ io.on("connection", (socket) => {
 });
 
 var corsOptions = {
-  origin: "https://ump-backend.herokuapp.com",
+  origin: "https://ump-backend-int3117-40.herokuapp.com",
 };
 
 app.use(express.urlencoded({ extended: true }));
